@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>
+    Web-Lab1 Contact Page
+   </title>
+ </head>
+ <body>
+    <header>
+        <h1>Web-Lab1 Contact Page</h1>
+        <nav>
+        <ul>
+         <li><a href="#index.html">Home</a></li>
+         <li><a href="#about.html">About</a></li>
+         <li><a href="#service.html">Service</a></li>
+        </ul>
+        </nav>
+    </header>
+    
+    <main>
+       <form action ="/submit" method="post">
+       <filedset>
+       <legend>Personal Information</legend>
+       <div>
+        <Label for="Efe Özdoğan">Name:</Label>
+        <input type="text" id="Efe Özdoğan" name="Efe Özdoğan">
+        </div>
+    
+       </filedset>
+
+       <filedset>
+        <legend>Email</legend>
+         <div>
+            <Label for="efeozdogan22@gmail.com">Email:</Label>
+            <input type="email" id="efeozdogan22@gmail.com" name="efeozdogan22@gmail.com">
+         </div>
+       </filedset>
+    
+       <fieldset>
+        <legend>Contact Date</legend>
+        <div>
+            <Label for="2026-09-21">Prefferd contact date:</Label>
+            <input type="date" id="2026-09-21" name="2026-09-21">
+        </div>
+       </fieldset>
+       <fieldset>
+        <legend>Places to contact</legend>
+        <div>
+            <label for = "subject">Subject:</label>
+            <select id="subject" name="subject">
+                <option value="email">Email</option>
+                <option value="phone">Phone</option>
+                <option value="fax">Fax</option>
+            </select>
+        </div>
+        
+        <div>
+            <label for = "Comment">Your Message:</label>
+            <textarea id="comment" name="User Comments" rows="5" cols="40" placeholder="Type here to comment.">        
+            </textarea>
+        </div>
+       </fieldset>
+       <button type="submit">Submit</button>
+       </form>
+ </body>
+</html>
